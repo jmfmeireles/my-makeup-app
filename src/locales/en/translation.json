@@ -1,19 +1,26 @@
 {
-  "routingFeature": {
-    "title": "Industry-standard Routing",
-    "description": "It's natural to want to add pages (e.g. `/about`) to your application, and routing makes this possible."
+  "app": {
+    "title": "My Makeup",
+    "description": "Style and Beauty"
   },
-  "i18nFeature": {
-    "title": "i18n Internationalization & Pluralization",
-    "selectLanguage": "Select Language",
-    "description": "Scalable apps need to support multiple languages, easily add and support multiple languages. Change the language below to see how instantly it updates the page without refreshing."
+  "homePage": {
+    "title": "Home Page",
+    "description": "The best way to enter on an environment with style and beauty",
+    "shopNowButton": "Shop Now",
+    "brushes": "Brushes",
+    "lips": "Lips",
+    "nailPolish": "Nail Polish",
+    "singlePot": "Single Pot",
+    "eyeshadow": "Eyeshadow"
+
   },
-  "feedbackFeature": {
-    "title": "Instant Feedback",
-    "description": "Enjoy the best DX and code your app at the speed of thought! Your saved changes to the CSS and JS are reflected instantaneously without refreshing the page."
+  "notFoundPage": {
+    "title": "Page Not Found",
+    "returnHomePage": "Return to Home Page"
   },
-  "scaffoldingFeature": {
-    "title": "Quick Scaffolding",
-    "description": "Automate the creation of components, features, routes, selectors and sagas - and their tests - right from the CLI! Avoid fighting the glue of your code and focus on your app!"
+  "productsListPage": {
+    "title": "Products List",
+    "description": "Page with the list of makeup products",
+    "productTags": "Product Tags"  
   }
 }

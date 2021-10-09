@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components';
-import { StyleConstants } from './StyleConstants';
 /* istanbul ignore next */
 export const GlobalStyle = createGlobalStyle`
   html,
@@ -10,14 +9,24 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    padding-top: ${StyleConstants.NAV_BAR_HEIGHT};
+    font-family: 'Abel', sans-serif;
     background-color: ${p => p.theme.background};
+    line-height: 1.4;
   }
 
-  body.fontLoaded {
-    font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
+  h1, h2, h3, h4, h5, h6 {
+	font-family: 'Gruppo', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	font-weight: 300;
+	color: white;
+	font-size: 3rem;
+	margin: 0 auto;
+}
+
   
   p,
   label {

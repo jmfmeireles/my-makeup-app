@@ -6,9 +6,9 @@ import * as React from 'react';
 import { lazyLoad } from 'utils/loadable';
 import { LoadingIndicator } from 'app/components/LoadingIndicator';
 
-export const HomePage = lazyLoad(
+export const ProductsList = lazyLoad(
   () => import('./index'),
-  module => module.HomePage,
+  module => module.ProductsList,
   {
     fallback: <LoadingIndicator />,
   },
